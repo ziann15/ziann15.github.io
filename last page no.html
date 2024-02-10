@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Will you be my valentine</title>
+    </head>
+    <style>
+        body{
+            background: url("bear-bears.gif");
+            background-repeat: repeat;
+            background-position: center;
+        }
+        .button {
+            position: absolute;
+            padding: 40px 80px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            border-color: black;
+            border-width: 5px;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML for 20 buttons -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the dimensions of the window
+            var windowWidth = window.innerWidth;
+            var windowHeight = window.innerHeight;
+            
+            // Get all buttons
+            var buttons = document.querySelectorAll(".button");
+            
+            // Loop through each button to set random positions
+            buttons.forEach(function(button) {
+                // Generate random positions within window dimensions
+                var randomX = Math.floor(Math.random() * (windowWidth - 200)); // Adjusted to prevent buttons from overflowing horizontally
+                var randomY = Math.floor(Math.random() * (windowHeight - 50)); // Adjusted to prevent buttons from overflowing vertically
+                
+                // Set the button's position
+                button.style.left = randomX + "px";
+                button.style.top = randomY + "px";
+            });
+        });
+    </script>
+
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+    <button class="button"><a href="secpage.html">YES</a></button>
+<body>
+</html>
